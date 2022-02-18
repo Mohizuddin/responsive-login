@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%); */
+  background-color: #6148bf;
+  background-image: url("login.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif, sans-serif;
+  box-sizing: border-box;
+  height: 80vh;
+}
+
+.main {
+  height: 506px;
+  width: 400px;
+  background-color: aliceblue;
+  margin: 7% auto;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px #fff;
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
+}
+
+.main:hover {
+  box-shadow: 8px 8px 50px #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+form {
+  margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    margin-top: 60px;
+    height: 500px;
+    width: 300px;
+  }
+}
+
+label,
+input,
+p,
+button {
+  display: block;
+}
+
+label {
+  margin-top: 10px;
+  color: #333;
+}
+
+input {
+  width: 95%;
+  margin: 0 auto;
+  height: 50px;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 5px;
+  color: #333;
+}
+
+.forgot-password {
+  margin-top: 20px;
+}
+
+.forgot-password a {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.submit {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.not-member {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.not-member a {
+  color: #1877f2;
+  text-decoration: none;
+}
